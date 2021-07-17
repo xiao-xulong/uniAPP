@@ -1,0 +1,23 @@
+.topImg {
+  width: 100%;
+}
+.topImg image {
+  width: 100%;
+}
+.phone {
+  height: 30px;
+  border-bottom: solid 1px #F1F1F1;
+  font-size: 15px;
+  padding: 0 30rpx;
+}
+.address {
+  margin-top: 20rpx;
+  font-size: 15px;
+  padding: 0 30rpx;
+}
+.map {
+  margin-top: 30rpx;
+  width: 750rpx;
+  height: 750rpx;
+}
+

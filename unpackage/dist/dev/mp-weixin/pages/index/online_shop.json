@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "小米商城",
+  "usingComponents": {
+    "goods-list": "/pages/common/goodsList"
+  }
+}

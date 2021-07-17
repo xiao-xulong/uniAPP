@@ -1,0 +1,1 @@
+<view><news vue-id="773ba800-1" news="{{newsInfo}}" bind:__l="__l"></news></view>

@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/info/info",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/index/about_us",
+    "pages/index/pics",
+    "pages/index/video",
+    "pages/index/online_shop",
+    "pages/webView/webView",
+    "pages/index/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni商城",
+    "navigationBarBackgroundColor": "#FF4500",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 350
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home_act.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "资讯",
+        "iconPath": "static/icon/internet.png",
+        "selectedIconPath": "static/icon/internet(1).png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/icon/cart.png",
+        "selectedIconPath": "static/icon/cart(1).png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "用户",
+        "iconPath": "static/icon/user.png",
+        "selectedIconPath": "static/icon/user(1).png"
+      }
+    ],
+    "backgroundColor": "#FFFFFF",
+    "selectedColor": "#DD524D"
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

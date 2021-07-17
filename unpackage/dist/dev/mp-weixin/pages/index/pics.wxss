@@ -1,0 +1,41 @@
+uni-page-body,
+uni-view {
+  height: 100%;
+}
+.scroll-left {
+  width: 200rpx;
+  height: 100%;
+  display: inline-block;
+}
+.scroll-left view {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 14px;
+  border-right: solid 1rpx #F1F1F1;
+  border-bottom: solid 1px #F1F1F1;
+  background-color: #FFFFFF;
+}
+.scroll-left .act {
+  background-color: #FF4500;
+  color: #FFFFFF;
+}
+.scroll-right {
+  vertical-align: top;
+  display: inline-block;
+  width: 500rpx;
+  height: 100vh;
+  margin-left: 25rpx;
+}
+.scroll-right .goodInfo {
+  width: 100%;
+  height: auto;
+}
+.scroll-right .goodInfo image {
+  width: 100%;
+}
+.scroll-right .goodInfo text {
+  font-size: 16px;
+}
+
